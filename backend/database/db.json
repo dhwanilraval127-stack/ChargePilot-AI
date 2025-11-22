@@ -1,0 +1,158 @@
+{
+  "users": [
+    {
+      "id": "admin-001",
+      "email": "admin@chargepilot.ai",
+      "password": "$2a$10$GcRBJkvOhn3RRJEOYgYxOehEPkFfSAeT2vae0GPqcXT1j0vFjad2m",
+      "name": "Admin User",
+      "phone": null,
+      "city": "Mumbai",
+      "role": "admin",
+      "created_at": "2025-11-22T10:24:44.806Z"
+    },
+    {
+      "id": "a89c7b6f-16df-4600-b498-87ec1f8b6689",
+      "email": "dhwanil@gamil.com",
+      "password": "$2a$10$7/2wcA09LHcHkpfRQypFMuy96PYpVwq9Fq/mCVydQ.1PodWCXVbzm",
+      "name": "dhwanil",
+      "phone": null,
+      "city": null,
+      "role": "user",
+      "created_at": "2025-11-22T10:26:06.219Z"
+    },
+    {
+      "id": "3734d57d-c384-448e-be94-9f80c66bb2f8",
+      "email": "dhwanil@gmail.com",
+      "password": "$2a$10$PCNaEF4DhG0q0DRpy3VOReDad7pRRd0u9FS0mWcP8WdYB8erXi1IS",
+      "name": "dhwnail",
+      "phone": null,
+      "city": null,
+      "role": "user",
+      "created_at": "2025-11-22T10:27:37.932Z"
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "976a3a06-2fa6-4e4e-84cb-0235ce93efac",
+      "user_id": "3734d57d-c384-448e-be94-9f80c66bb2f8",
+      "model": "Tata Nexon EV",
+      "capacity": 30.2,
+      "efficiency": 6.5,
+      "is_default": true,
+      "created_at": "2025-11-22T10:34:27.826Z"
+    }
+  ],
+  "stations": [
+    {
+      "id": "station-1",
+      "name": "Tata Power Charging Station",
+      "address": "Phoenix Marketcity, Kurla",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "latitude": 19.0878,
+      "longitude": 72.8914,
+      "connector_types": "CCS2, CHAdeMO, Type2",
+      "power_kw": 50,
+      "pricing_info": "₹15/kWh",
+      "source": "dataset",
+      "is_verified": 1,
+      "owner_id": null,
+      "health_score": 95,
+      "avg_rating": 4.5,
+      "total_reviews": 0,
+      "is_active": 1,
+      "created_at": "2025-11-22T10:24:44.808Z"
+    },
+    {
+      "id": "station-2",
+      "name": "Ather Grid",
+      "address": "MG Road Metro Station",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "latitude": 12.9756,
+      "longitude": 77.6065,
+      "connector_types": "Type2, Bharat DC",
+      "power_kw": 30,
+      "pricing_info": "₹12/kWh",
+      "source": "dataset",
+      "is_verified": 1,
+      "owner_id": null,
+      "health_score": 88,
+      "avg_rating": 4.2,
+      "total_reviews": 0,
+      "is_active": 1,
+      "created_at": "2025-11-22T10:24:44.808Z"
+    },
+    {
+      "id": "station-3",
+      "name": "Reliance BP Charging Hub",
+      "address": "Connaught Place",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "latitude": 28.6315,
+      "longitude": 77.2167,
+      "connector_types": "CCS2, Type2",
+      "power_kw": 60,
+      "pricing_info": "₹18/kWh",
+      "source": "dataset",
+      "is_verified": 1,
+      "owner_id": null,
+      "health_score": 92,
+      "avg_rating": 4.7,
+      "total_reviews": 0,
+      "is_active": 1,
+      "created_at": "2025-11-22T10:24:44.808Z"
+    }
+  ],
+  "reviews": [],
+  "reports": [],
+  "trips": [
+    {
+      "id": "95da98b1-eb6f-4d83-9697-0f146bca3d06",
+      "user_id": "a89c7b6f-16df-4600-b498-87ec1f8b6689",
+      "origin": "{\"lat\":22.2887936,\"lng\":70.7854336}",
+      "destination": "{\"lat\":28.6328027,\"lng\":77.2197713}",
+      "distance": 1146.487,
+      "initial_soc": 21,
+      "predicted_range": 58.012499999999996,
+      "is_reachable": 0,
+      "recommended_station_id": "station-3",
+      "ml_method": "fallback",
+      "model_accuracy": null,
+      "temperature": 30.7,
+      "created_at": "2025-11-22T10:26:42.007Z"
+    },
+    {
+      "id": "55ca7558-fb9d-4b32-bb36-a517c443cfb8",
+      "user_id": "3734d57d-c384-448e-be94-9f80c66bb2f8",
+      "origin": "{\"lat\":21.7718836,\"lng\":72.1416449}",
+      "destination": "{\"lat\":28.6328027,\"lng\":77.2197713}",
+      "distance": 1126.4225,
+      "initial_soc": 30,
+      "predicted_range": 82.875,
+      "is_reachable": 0,
+      "recommended_station_id": "station-3",
+      "ml_method": "fallback",
+      "model_accuracy": null,
+      "temperature": 28.8,
+      "created_at": "2025-11-22T10:30:51.767Z"
+    },
+    {
+      "id": "15417c8f-c447-47e5-a684-55d64ccb33f8",
+      "user_id": "3734d57d-c384-448e-be94-9f80c66bb2f8",
+      "origin": "{\"lat\":21.7718836,\"lng\":72.1416449}",
+      "destination": "{\"lat\":28.6328027,\"lng\":77.2197713}",
+      "distance": 1126.4225,
+      "initial_soc": 80,
+      "predicted_range": 221,
+      "is_reachable": 0,
+      "recommended_station_id": "station-3",
+      "ml_method": "fallback",
+      "model_accuracy": null,
+      "temperature": 28.8,
+      "created_at": "2025-11-22T10:34:10.497Z"
+    }
+  ],
+  "sessions": [],
+  "claims": []
+}

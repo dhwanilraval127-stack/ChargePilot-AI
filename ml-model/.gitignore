@@ -1,0 +1,8 @@
+__pycache__/
+venv/
+.env
+*.log
+*.pyc
+# Uncomment if model file is too large (>100MB)
+# model.pkl
+# models/*.pkl

@@ -1,0 +1,83 @@
+{
+  "app": {
+    "name": "ચાર્જપાઇલટ AI",
+    "tagline": "તમારો સ્માર્ટ EV ચાર્જિંગ સાથી"
+  },
+  "nav": {
+    "dashboard": "ડેશબોર્ડ",
+    "tripPlanner": "ટ્રિપ પ્લાનર",
+    "stations": "સ્ટેશનો",
+    "analytics": "વિશ્લેષણ",
+    "profile": "પ્રોફાઇલ",
+    "owner": "માલિક ડેશબોર્ડ",
+    "admin": "એડમિન પેનલ",
+    "logout": "લોગઆઉટ"
+  },
+  "auth": {
+    "login": "લોગિન",
+    "register": "રજિસ્ટર",
+    "email": "ઈમેલ",
+    "password": "પાસવર્ડ",
+    "name": "પૂરું નામ",
+    "phone": "ફોન નંબર",
+    "city": "શહેર",
+    "welcomeBack": "પાછા સ્વાગત છે!",
+    "createAccount": "ખાતું બનાવો",
+    "alreadyHaveAccount": "પહેલેથી ખાતું છે?",
+    "dontHaveAccount": "ખાતું નથી?",
+    "loginSuccess": "લોગિન સફળ!",
+    "registerSuccess": "નોંધણી સફળ!"
+  },
+  "dashboard": {
+    "welcome": "સ્વાગત છે",
+    "quickStats": "ઝડપી આંકડા",
+    "batteryStatus": "બેટરી સ્થિતિ",
+    "estimatedRange": "અંદાજિત રેન્જ",
+    "totalTrips": "કુલ ટ્રિપ્સ",
+    "chargingSessions": "ચાર્જિંગ સત્રો",
+    "nearbyStations": "નજીકના સ્ટેશનો",
+    "recentTrips": "તાજેતરની ટ્રિપ્સ",
+    "quickActions": "ઝડપી ક્રિયાઓ",
+    "planTrip": "ટ્રિપ આયોજન કરો",
+    "findStations": "સ્ટેશન શોધો",
+    "viewAnalytics": "વિશ્લેષણ જુઓ"
+  },
+  "tripPlanner": {
+    "title": "ટ્રિપ પ્લાનર",
+    "origin": "શરૂઆતનું સ્થાન",
+    "destination": "ગંતવ્ય",
+    "currentBattery": "વર્તમાન બેટરી",
+    "selectVehicle": "વાહન પસંદ કરો",
+    "checkFeasibility": "રૂટ તપાસો",
+    "calculating": "ગણતરી કરી રહ્યા છીએ...",
+    "reachable": "રૂટ પહોંચી શકાય તેવો છે!",
+    "chargingRequired": "ચાર્જિંગ જરૂરી",
+    "distance": "અંતર",
+    "predictedRange": "અંદાજિત રેન્જ",
+    "arrivalBattery": "આગમન બેટરી",
+    "recommendedStation": "સૂચવેલ સ્ટેશન",
+    "chargeTo": "ચાર્જ કરો",
+    "estimatedTime": "અંદાજિત સમય",
+    "estimatedCost": "અંદાજિત ખર્ચ",
+    "startNavigation": "નેવિગેશન શરૂ કરો"
+  },
+  "common": {
+    "loading": "લોડ થઈ રહ્યું છે...",
+    "save": "સાચવો",
+    "cancel": "રદ કરો",
+    "delete": "કાઢી નાખો",
+    "edit": "સંપાદિત કરો",
+    "close": "બંધ કરો",
+    "confirm": "પુષ્ટિ કરો",
+    "error": "ભૂલ",
+    "success": "સફળતા",
+    "warning": "ચેતવણી",
+    "info": "માહિતી",
+    "km": "કિમી",
+    "kwh": "kWh",
+    "minutes": "મિનિટ",
+    "hours": "કલાક",
+    "rupees": "₹",
+    "percent": "%"
+  }
+}

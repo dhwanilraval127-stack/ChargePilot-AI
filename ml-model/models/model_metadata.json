@@ -1,0 +1,8 @@
+{
+  "best_model": "CatBoost",
+  "test_r2": 0.941700780079142,
+  "accuracy": 94.1700780079142,
+  "n_features": 22,
+  "n_samples": 5000,
+  "timestamp": "2025-11-22T12:52:20.988504"
+}

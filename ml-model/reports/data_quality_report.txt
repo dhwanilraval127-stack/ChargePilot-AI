@@ -1,0 +1,47 @@
+======================================================================
+DATA QUALITY REPORT - ChargePilot AI
+======================================================================
+
+1. EV CONSUMPTION DATASET
+----------------------------------------------------------------------
+Total Rows: 5000
+Total Columns: 19
+Memory Usage: 1.01 MB
+
+Columns:
+  - Vehicle_ID (int64)
+  - Timestamp (object)
+  - Speed_kmh (float64)
+  - Acceleration_ms2 (float64)
+  - Battery_State_% (float64)
+  - Battery_Voltage_V (float64)
+  - Battery_Temperature_C (float64)
+  - Driving_Mode (int64)
+  - Road_Type (int64)
+  - Traffic_Condition (int64)
+  - Slope_% (float64)
+  - Weather_Condition (int64)
+  - Temperature_C (float64)
+  - Humidity_% (float64)
+  - Wind_Speed_ms (float64)
+  - Tire_Pressure_psi (float64)
+  - Vehicle_Weight_kg (float64)
+  - Distance_Travelled_km (float64)
+  - Energy_Consumption_kWh (float64)
+
+2. INDIAN EV STATIONS DATASET
+----------------------------------------------------------------------
+Total Rows: 855
+Total Columns: 9
+Memory Usage: 0.34 MB
+
+Columns:
+  - Station Name (object)
+  - City (object)
+  - State (object)
+  - Latitude (float64)
+  - Longitude (float64)
+  - Operator (object)
+  - Usage Type (object)
+  - Connector Type (object)
+  - Power (kW) (float64)

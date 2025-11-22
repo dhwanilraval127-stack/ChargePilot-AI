@@ -1,0 +1,26 @@
+# Core ML libraries
+pandas
+numpy
+scikit-learn
+
+# Advanced models
+xgboost
+lightgbm
+catboost
+
+# Deep learning (optional)
+tensorflow
+
+# Utilities
+joblib
+matplotlib
+seaborn
+
+# API
+flask
+flask-cors
+python-dotenv
+gunicorn
+
+# Optimization
+optuna
